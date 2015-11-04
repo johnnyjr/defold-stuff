@@ -19,7 +19,3 @@ function update(self, dt)
 		self.current_delay=0
 	end
 end
-
-function on_reload(self)
-	self.tile_width=1/((self.frames-1)*2)
-end
