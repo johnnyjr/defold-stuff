@@ -1,7 +1,7 @@
 name: "tile_map"
 tags: "tile"
 tags: "sprite"
-vertex_program: "/builtins/materials/tile_map.vp"
+vertex_program: "/game/materials/animated_tilemap.vp"
 fragment_program: "/game/materials/animated_tilemap.fp"
 vertex_constants {
   name: "view_proj"
@@ -10,6 +10,10 @@ vertex_constants {
 vertex_constants {
   name: "world"
   type: CONSTANT_TYPE_WORLD
+}
+vertex_constants {
+  name: "offset"
+  type: CONSTANT_TYPE_USER
 }
 fragment_constants {
   name: "tint"
@@ -20,8 +24,4 @@ fragment_constants {
     z: 1.0
     w: 1.0
   }
-}
-fragment_constants {
-  name: "offset"
-  type: CONSTANT_TYPE_USER
 }
