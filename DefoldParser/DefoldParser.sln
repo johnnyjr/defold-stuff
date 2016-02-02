@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefoldParser", "DefoldParser\DefoldParser.csproj", "{BAD94022-7596-4D52-A067-211B259F7719}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAD94022-7596-4D52-A067-211B259F7719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD94022-7596-4D52-A067-211B259F7719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAD94022-7596-4D52-A067-211B259F7719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD94022-7596-4D52-A067-211B259F7719}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
